@@ -2,8 +2,6 @@
 
 This is yet another [Pong game](https://en.wikipedia.org/wiki/Pong) implementation. It was inspired by by Sanjay Madhav's "From Game Programming in C++" (code available [here](https://github.com/gameprogcpp/code/blob/master/Chapter01/Game.cpp)).
 
-<img src="pong_game.png"/>
-
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
@@ -30,7 +28,12 @@ This is yet another [Pong game](https://en.wikipedia.org/wiki/Pong) implementati
 
 In this version of Pong the human player competes against the cpu. The objective of the game is to score more goals than the adversary. The player or the cpu scores a goal if the ball (the black dot) passes through the openings on the left or the right side of the pitch not limited by the grey walls. After 90 seconds the game is over and who has scored more goals wins.
 
-The human player controls the red paddle on the left side of the field and scores if the ball passes through the goal on the right side. Pressing "w" or up key moves the paddle up, pressing "s" or down key moves the paddle down. The player is able to move the paddle until it reaches the limiting walls at the top or the bottom of the pitch.
+YOU:
+
+- Press "w" to go up.
+- Press "s" to go down.
+
+CPU: 
 
 The cpu controls the blue paddle on the right side of the screen. The cpu is a cautious player and will not move quite to the top or the bottom. It will only start moving when the ball is in its side of the field (limited by the white vertical line in the middle) and moving towards cpu's goal.
 
